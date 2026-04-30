@@ -1,4 +1,16 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"]
+  "extends": ["config:recommended"],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["/(^|/)Project\\.toml$/"],
+      "matchStrings": [
+        "\\[compat\\][^\\[]*?(?<depName>[A-Z][A-Za-z0-9_]*)\\s*=\\s*\"(?<currentValue>[\\d^~=<>][\\d.\\s,^~=<>≥-]*)\""
+      ],
+      "matchStringsStrategy": "recursive",
+      "datasourceTemplate": "julia-general-metadata",
+      "versioningTemplate": "julia"
+    }
+  ]
 }
