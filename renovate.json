@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "julia": {
+    "registryUrls": [
+      "General",
+      "https://github.com/HolyLab/HolyLabRegistry.git"
+    ]
+  }
+}

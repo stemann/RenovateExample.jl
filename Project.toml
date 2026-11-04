@@ -1,0 +1,13 @@
+name = "RenovateExample"
+uuid = "00000000-0000-0000-0000-000000000000"
+authors = ["Test"]
+version = "0.1.0"
+
+[deps]
+CachedCalls = "b89da37c-15e8-11e9-0b03-ab0995a60613"
+Example = "7876af07-990d-54b4-ab0e-23690620f79a"
+
+[compat]
+CachedCalls = "0.0.1"
+Example = "0.4.0"
+julia = "1"
