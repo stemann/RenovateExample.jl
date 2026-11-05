@@ -1,0 +1,10 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+RenovateExample = "00000000-0000-0000-0000-000000000000"
+
+[sources]
+RenovateExample = {path = ".."}
+
+[compat]
+Documenter = "0.27"
+RenovateExample = "0.1"
