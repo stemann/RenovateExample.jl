@@ -29,7 +29,7 @@ test = ["Aqua", "Test"]
 [compat]
 Aqua = "0.6"
 Compat = "3"
-DocStringExtensions = "0.8"
+DocStringExtensions = "0.8, 0.10"
 Example = "0.4.0"
 LinearAlgebra = "1"
 OrderedCollections = "1"
