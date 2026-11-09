@@ -27,7 +27,7 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 test = ["Aqua", "Test"]
 
 [compat]
-Aqua = "0.6"
+Aqua = "0.6, 0.8"
 Compat = "3"
 DocStringExtensions = "0.8"
 Example = "0.4.0"
