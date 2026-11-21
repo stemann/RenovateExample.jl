@@ -6,5 +6,5 @@ RenovateExample = "00000000-0000-0000-0000-000000000000"
 RenovateExample = {path = ".."}
 
 [compat]
-Documenter = "0.27"
+Documenter = "0.27, 1"
 RenovateExample = "0.1"
